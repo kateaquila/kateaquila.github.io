@@ -1,0 +1,84 @@
+/* This is a comment in CSS */
+
+body {
+	background-color:salmon;
+	font-family: Helvetica, Arial, sans-serif;
+	background-image: url(../images/bg5.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.main {
+	background-color: rgba(255,255,255,0.7);
+	border-radius: 20px;
+	box-shadow: 0px 0px 20px 5px rgba(255,255, 255, 0.7);
+	max-width: 600px;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-family: 'Monoton', cursive;
+	text-align: center;
+	font-size: 60px;
+	text-shadow: 0px 0px 10px white;
+}
+
+h2 {
+	text-align: center;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 7px;
+	background: deepskyblue;
+}
+
+h3 {
+	cursor: pointer;
+	margin-bottom: 0;
+}
+
+img {
+	width:200px;
+	border: 10px solid #bada55;
+	border-radius: 25%;
+	border-radius: 50% 0 50% 50%;
+	display: block; 
+	margin: 0 auto;
+
+}
+
+p,
+ul,
+ol {
+	line-height: 1.6;
+	list-style: none;
+	padding-left: 0;
+}
+
+a{
+	font-weight: bold;
+	color: #bada55;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+	color: yellow;
+}
+
+ul li {
+	display: inline-block;
+	border-left: 2px solid black;
+	padding-left: 10px;
+	margin-left: 6px;
+}
+
+ul li:first-child {
+	margin-left: 0;
+	padding-left: 0;
+	border-left: none;
+}
+
+ul li:nth-child(2) {
+	background: none;
+}
